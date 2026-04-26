@@ -94,15 +94,8 @@ The app loads texture files at runtime:
 
 Run the executable from the project root so relative paths resolve correctly.
 
-## Do I need to push `freeglut.dll`?
 
-Short answer: for a class/demo repo where others run your prebuilt `24_film.exe` directly on Windows, **yes, usually include it**.
 
-More specifically:
-
-1. If you only share source and everyone builds locally with their own freeglut install, you do not need to commit `freeglut.dll`.
-2. If you share a prebuilt `.exe`, include `freeglut.dll` next to the `.exe` (or provide a clear install step), otherwise the program may fail to start with a missing DLL error.
-3. If your instructor/teammates are non-technical, committing `freeglut.dll` is the most reliable option.
 
 ## Notes
 
